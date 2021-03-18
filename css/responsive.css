@@ -1,0 +1,189 @@
+
+   
+    @media only screen and (max-width: 870px) {
+       #aboutus,#contactus,#services,#ourproject{
+        
+        padding: 20px;
+        padding-left: 40px;
+        
+       }
+       #aboutdown{
+        padding: 5px;
+       }
+       #socialslide,#social{
+        display: none;
+       }
+
+    }
+    @media only screen and (max-width: 456px) {
+       #aboutdown,#contactus,#services,#ourproject{
+        flex-direction: column;
+        
+       }
+       #aboutus,#contactus,#services,#ourproject,#aboutup,#aboutdown,#contactusleft,#contactusright,#opup,#opdown,#servicesup,.skill{
+        padding:20px;
+
+        
+       }
+       #aboutdown{
+        padding: 5px;
+       }
+       #socialslide,#social{
+        display: none;
+       }
+       #navbar .navitem{
+        display: block;
+        float:left;
+        width: 100%;
+        align-content: center;
+
+       }
+       #navbar{
+        display: none;
+        margin-right: 0px;
+
+       }
+       #navtoggle{
+        display: block;
+       }
+       .homeinner{
+        padding: 20px;
+        font-size: 26px;
+       }
+       .homebutton{
+        padding: 2px;
+        font-size: 17px;
+        border: #fff 2px solid;
+       }
+       #hackerimg{
+        height: 350px;
+       }
+       #userabout{
+        height:auto;
+       }
+        .skillup{
+          font-size: 30px;
+        }
+        .skillbox{
+          max-width: 200px;
+        }
+        .skillboxcontact{
+          max-width: 120px;
+        }
+        .skilltext h2{
+          font-size: 24px;
+        }
+    }
+
+    @media only screen and (max-width: 380px) {
+       #aboutdown,#contactus,#services,#ourproject{
+        flex-direction: column;
+        
+       }
+       #aboutus,#contactus,#services,#ourproject,#aboutup,#aboutdown,#contactusleft,#contactusright,#opup,#opdown,#servicesup,.skill{
+        padding:20px;
+
+        
+       }
+       #contactusright{
+        margin-left: 0px;
+       }
+       #aboutdown{
+        padding: 5px;
+       }
+       #socialslide,#social{
+        display: none;
+       }
+       #navbar .navitem{
+        display: block;
+        float:left;
+        width: 100%;
+        align-content: center;
+
+       }
+       #navbar{
+        display: none;
+        margin-right: 0px;
+
+       }
+       #navtoggle{
+        display: block;
+       }
+       .homeinner{
+        padding: 20px;
+        padding-right: 0px;
+        font-size: 25px;
+       }
+       .homebutton{
+        padding: 2px;
+        font-size: 17px;
+        border: #fff 2px solid;
+       }
+       #hackerimg{
+        height: 300px;
+       }
+       #userabout{
+        height:auto;
+       }
+       #footerdown{
+        flex-direction: column;
+
+       }
+       #socialbottom{
+        width: 100%;
+        display: flex;
+        align-content: center;
+       }
+    }
+
+    @media only screen and (max-width: 321px) {
+       #aboutdown,#contactus,#services,#ourproject{
+        flex-direction: column;
+        
+       }
+       #aboutus,#contactus,#services,#ourproject,#aboutup,#aboutdown,#contactusleft,#contactusright,#opup,#opdown,#servicesup,.skill{
+        padding:20px;
+
+        
+       }
+       #aboutdown{
+        padding: 5px;
+       }
+       #socialslide,#social{
+        display: none;
+       }
+       #navbar .navitem{
+        display: block;
+        float:left;
+        width: 100%;
+        align-content: center;
+
+       }
+       #navbar{
+        display: none;
+        margin-right: 0px;
+
+       }
+       #navtoggle{
+        display: block;
+       }
+       .homeinner{
+        padding: 20px;
+        padding-right: 0px;
+        font-size: 22px;
+       }
+       .homebutton{
+        padding: 2px;
+        font-size: 17px;
+        border: #fff 2px solid;
+       }
+       #hackerimg{
+        height: 260px;
+       }
+       #userabout{
+        height:auto;
+       }
+       #userabout span{
+        font-size: 27px;
+       }
+    }

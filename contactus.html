@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   <link rel="icon" type="favicon" href="images/harsh.jpg">
+   <!--  Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!--  Animate.css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="description"
+      content="I am a Full Stack Web Developer who used to Code in different languages like HTML, CSS, JavaScript,  PHP, MySQL and  there different Frameworks like jQuery, Bootstrap.css, Animate.css etc. As Well as I sometimes use CMS Platform (WordPress) to create a Website. My Hobby is to write Code.I have very different kind of Skills from various Fields like Web Development, UI/UX Development, Video Editing, Graphic Designing, PCB Development, Electronics, IoT (Internet of Things) and lot more.I also Create YouTube Videos about Learning Electronics & Web Development that gives me Pleasure.I always Willing to Learn Something New to Improve my Skills.">
+   <meta name="keywords"
+      content="Harsh Vishwakarma,Harsh Vishwakarma Bhopal,Harsh Bhopal , Web Development in Bhopal, Web Developer in Bhopal, Harsh Vishwakarma Web Developer,Website Development in Bhopal, Bhopal Web Developer,Best Web Developer in Bhopal, Web Development Cheap,Harsh Vishwakarma Website">
+   <meta name="author" content="Harsh Vishwakarma">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap & w3.css-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+   <!--jQuery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+   <title>Harsh Vishwakarma | Web Developer</title>
+
+   <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+   <style type="text/css">
+      #home {
+         float: left;
+         background-image: url('images/contactus.jpg');
+         background-attachment: fixed;
+         background-size: cover;
+         background-position: center;
+
+         height: 100vh;
+         width: 100%;
+
+      }
+
+      .homeinner {
+         background: rgba(0, 0, 0, 0.7);
+         height: 100%;
+         width: 100%;
+         color: #fff;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 74px;
+
+         font-family: 'Titillium Web', sans-serif;
+      }
+   </style>
+
+   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   <style type="text/css">
+      @media only screen and (max-width: 456px) {
+         .homeinner {
+            font-size: 54px;
+         }
+      }
+   </style>
+
+
+   <script type="text/javascript" src="js/animation.js"></script>
+</head>
+
+<body>
+
+   <!-- Header-->
+
+
+
+
+   <div id="loader">
+      <div class="spinner">
+         <div class="double-bounce1"></div>
+         <div class="double-bounce2"></div>
+      </div>
+   </div>
+
+
+
+
+
+   <div id="header">
+      <span id="logo" class=" animate__animated animate__fadeInLeft"><b>&lt;/hV&gt;</b></span>
+      <div id="navtoggle">
+         <button id="navbutton"
+            onclick="$('#navbar').slideToggle('slow');document.getElementById('header').style.background='rgb(10,10,10)'"><i
+               class="fa fa-bars"></i></button>
+
+      </div>
+      <div id="navbar" class=" animate__animated animate__fadeInRight">
+         <a href="index.html" class="navitem">
+            <center>Home</center>
+         </a>
+         <a href="aboutus.html" class="navitem">
+            <center>About Us</center>
+         </a>
+         <a href="ourproject.html" class="navitem">
+            <center>Our Projects</center>
+         </a>
+         <a href="ourservices.html" class="navitem">
+            <center>Services</center>
+         </a>
+         <a href="contactus.html" class="navitem">
+            <center>Contact Us</center>
+         </a>
+      </div>
+
+   </div>
+
+
+   <!---Home -->
+   <div id="home" class="">
+      <div class="homeinner">
+         <span>Contact Us</span>
+      </div>
+   </div>
+
+   <br>
+
+
+
+
+
+
+
+   <!--contactFOrm-->
+   <div id="contactform" class="skill skilldark">
+      <div id="contactformup" class="skillup">
+         <span>Enquiry Form</span>
+
+      </div>
+
+
+      <div id="contactformdown" class="skilldown">
+
+
+
+
+         <form method="post" target="index.html">
+            <input type="text" name="name" class="input" placeholder="Your First Name" required><br>
+
+            <input type="number" name="contact" class="input" placeholder="Your Contact no." max="9999999999"
+               required><br>
+            <input type="email" name="email" class="input" placeholder="Your Email"><br>
+
+            <select class="input" name="service" id="service">
+               <option value="wd" id="wd">Web Development</option>
+               <option value="hd" id="hd">Hosting & Domain</option>
+               <option value="psd" id="psd">PSD to HTML</option>
+               <option value="wordpress" id="wordpress">Wordpress Website</option>
+               <option value="wix" id="wix">Wix Website</option>
+
+            </select>
+
+
+            <textarea id="msg" name="msg" class="input textarea" rows="4" cols="50"
+               placeholder="Your Message"></textarea><br>
+            <button type="submit" name="submit" class="input button">Submit</button>
+         </form>
+
+
+
+      </div>
+
+
+
+
+   </div>
+
+
+
+
+
+   <iframe id="maplocation"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.585093580316!2d77.48007771409839!3d23.22178658485255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c419fc6811533%3A0x538a9d921f4071ae!2sHarsh%20Vishwakarma!5e0!3m2!1sen!2sin!4v1594739427408!5m2!1sen!2sin"
+      width="100%" frameborder="0" style="border:0;height:100vh;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--Framework-->
+   <div id="socialpage" class="skill skilldark">
+      <div id="socialpageup" class="skillup">
+         <span>Be in Touch with Us</span>
+
+      </div>
+
+
+      <div id="socialpagedown" class="skilldown">
+
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/instagram.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="http://instagram.com/meinhoonharsh">Instagram</a></h2>
+            </div>
+
+         </div>
+
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/fb.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="http://facebook.com/meinhoonharsh">Facebook</a></h2>
+            </div>
+
+         </div>
+
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/yt.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="https://www.youtube.com/channel/UCgCoppLPer6DWFV5OvYl-7A">YouTube</a></h2>
+            </div>
+
+         </div>
+
+
+
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/twitter.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="http://twitter.com/meinhoonharsh">Twitter</a></h2>
+            </div>
+
+         </div>
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/github.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="http://github.com/meinhoonharsh">GitHub</a></h2>
+            </div>
+
+         </div>
+
+
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/quora.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="https://www.quora.com/profile/Harsh-Vishwakarma-120">Quora</a></h2>
+            </div>
+
+         </div>
+
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/stackoverflow.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="https://stackoverflow.com/users/13955129/harsh-vishwakarma?tab=profile">Stack OverFlow</a>
+               </h2>
+            </div>
+
+         </div>
+
+
+
+         <div class="skillboxcontact white square">
+            <img src="images/social/telegram.png" class="skillimage">
+
+            <div class="skilltext">
+               <h2><a href="http://t.me/meinhoonharsh">Telegram</a></h2>
+            </div>
+
+         </div>
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--Learnings-->
+   <div id="subscribe" class="skill">
+      <div id="subscribeup" class="skillup">
+         <span>Subscribe for Regular Updates</span>
+
+      </div>
+
+
+      <div id="subscribedown" class="skilldown">
+
+
+
+
+         <form method="post" target="index.html">
+            <input type="text" name="name" class="input" placeholder="Your First Name" required><br>
+
+            <input type="number" name="contact" class="input" placeholder="Your Contact no." max="9999999999"
+               required><br>
+            <input type="email" name="email" class="input" placeholder="Your Email"><br>
+
+            <button type="submit" name="submitsubscribe" class="input button">Submit</button>
+         </form>
+
+
+
+      </div>
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div id="footer">
+      <div id="footerup">
+
+
+
+         <div>
+            <a href="aboutus.html">
+               <h3>About Us</h3>
+            </a>
+            <a href="aboutus.html#skill">Skills</a><br>
+            <a href="aboutus.html#language">Languages</a><br>
+            <a href="aboutus.html#framework">Framework</a><br>
+            <a href="aboutus.html#learning">Learning</a><br>
+         </div>
+
+
+
+         <div>
+            <a href="ourproject.html">
+               <h3>Our Projects</h3>
+            </a>
+            <a href="ourproject.html#recentproject">Recent Projects</a><br>
+            <a href="ourproject.html#topproject">Top Projects</a><br>
+            <a href="ourproject.html#">Testimonial</a><br>
+            <a href="ourproject.html#allproject">All Projects</a><br>
+         </div>
+
+
+
+         <div>
+            <a href="ourservices.html">
+               <h3>Services</h3>
+            </a>
+            <a href="ourservices.html#wd">Web Development</a><br>
+            <a href="ourservices.html#hd">Hosting & Domain</a><br>
+            <a href="ourservices.html#psd">PSD to HTML</a><br>
+            <a href="ourservices.html#wordpress">WordPress Website</a><br>
+            <a href="ourservices.html#wix">Wix Website</a><br>
+         </div>
+
+
+
+         <div>
+            <a href="contactus.html">
+               <h3>Contact US</h3>
+            </a>
+            <a href="contactus.html#contactform">Enquiry Form</a><br>
+            <a href="contactus.html#maplocation">Location</a><br>
+            <a href="contactus.html#socialpage">Social Links </a><br>
+            <a href="contactus.html#subscribe">Subscribe Us</a><br>
+         </div>
+
+
+
+
+         <!--<div id="google_translate_element"></div>
+
+			<script type="text/javascript">
+			function googleTranslateElementInit() {
+			new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+			}
+			</script>
+
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+
+      </div>
+
+      <div id="footerdown">
+         <div>&copy;2020 - Harsh Vishwakarma </div>
+
+         <div id="socialbottom" class="animate__fadeInLeft animate__animated">
+            <a href="http://www.instagram.com/meinhoonharsh"
+               class="socialiconbottom animate__fadeInUp animate__animated"><i class="fa fa-instagram"></i></a>
+            <a href="http://www.fb.com/meinhoonharsh" class="socialiconbottom animate__fadeInUp animate__animated"><i
+                  class="fa fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCgCoppLPer6DWFV5OvYl-7A"
+               class="socialiconbottom animate__fadeInUp animate__animated"><i class="fa fa-youtube-play"></i></a>
+            <a href="http://www.twitter.com/meinhoonharsh"
+               class="socialiconbottom animate__fadeInUp animate__animated"><i class="fa fa-twitter"></i></a>
+            <a href="http://www.github.com/meinhoonharsh"
+               class="socialiconbottom animate__fadeInUp animate__animated"><i class="fa fa-github"></i></a>
+
+
+         </div>
+
+
+      </div>
+
+
+   </div>
+
+
+
+   <script type="text/javascript">
+
+      $(window).on("load", function () {
+         $("#loader").fadeOut("slow");
+      });
+
+
+
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("header").style.background = "rgb(10,10,10)";
+         } else {
+            document.getElementById("header").style.background = "none";
+         }
+      }
+
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Typed.js -->
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+   <!-- Waypoint.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"></script>
+   <script type="text/javascript">
+      var options = {
+         strings: [
+            'Harsh Vishwakarma',
+            'Web Developer',
+            'Web Designer',
+            'FreeLancer',
+            'Programmer',
+            'Coder',
+         ],
+         typeSpeed: 60,
+         backSpeed: 60,
+         loop: true,
+      };
+
+      var typed = new Typed('.element', options);
+
+
+
+   </script>
+
+
+</body>
+
+
+</html>
